@@ -2,6 +2,7 @@
   src: url(../fonts/Manrope-Regular.ttf);
   font-family: "Manrope-Regular.ttf";
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -225,6 +226,7 @@ body {
 .main__4-wrapper {
   background-color: #121212;
   padding-top: 151px;
+  padding-bottom: 151px;
 }
 
 .main__4-title {
@@ -247,8 +249,31 @@ body {
   text-align: left;
 }
 
-.main__4-text-comment p:last-child {
-  margin-bottom: 150px;
-}
 
 /* --------------страница 5--------------- */
+
+.main__5 {
+  position: relative;
+  width: 100%;
+  min-height: 717px;
+  background-image: url(../img/four-img/Rectangle\ 10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+.main__5-text {
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
+  width: 443px;
+  height: 82px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+}
