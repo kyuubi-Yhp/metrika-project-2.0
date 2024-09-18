@@ -2,6 +2,9 @@
   src: url(../fonts/Manrope-Regular.ttf);
   font-family: "Manrope-Regular.ttf";
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Manrope-Regular.ttf";
@@ -55,6 +58,7 @@ body {
 .header__menu-item:hover {
   color: grey;
   text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 
