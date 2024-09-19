@@ -47,7 +47,7 @@ body {
 }
 
 .header__menu-item {
-  margin-right: 60px;
+  margin-right: 56px;
   font-size: 18px;
   transition: 0.3s;
 }
@@ -71,10 +71,10 @@ body {
 }
 
 .main__1-title {
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 57px;
+  line-height: 63px;
   font-weight: 400;
-  letter-spacing: 3%;
+  letter-spacing: 2%;
   margin-bottom: 30px;
   width: 1000px;
 }
@@ -92,9 +92,9 @@ body {
   bottom: 40px;
   /* padding: 380px 0 0 40px; */
   width: 490px;
-  font-size: 20px;
+  font-size: 19.5px;
   line-height: 28px;
-  letter-spacing: 3%;
+  letter-spacing: 2%;
   color: #fff;
 }
 
@@ -130,11 +130,11 @@ body {
 
 .main__2-text {
   margin-bottom: 30px;
-  font-size: 45px;
+  font-size: 43px;
   font-weight: 400;
   line-height: 61px;
-  letter-spacing: 3%;
-  width: 1110px;
+  letter-spacing: ;
+  width: 1075px;
   text-align: left;
   height: 366px;
 }
@@ -169,18 +169,18 @@ body {
 
 
 .main__3-title {
-  margin: 150px 0 30px 0;
+  margin: 150px 0 35px 0;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 400;
 }
 
 .main__3-info-text {
-  margin: 15px 0 15px 0;
+  margin: 17px 0 15px 0;
   font-size: 30px;
   font-weight: 400;
   line-height: 40.98px;
-  letter-spacing: -3%;
+letter-spacing: -1px;
 }
 
 .main__3-link {
@@ -193,7 +193,7 @@ body {
 }
 
 .main__3-contant {
-  margin-bottom: 90px;
+  margin-bottom: 88px;
 }
 
 .main__3-picture {
@@ -222,6 +222,9 @@ body {
 
 /* ------------страница 4 ---------------*/
 
+.main__4 {
+  margin-bottom: -48px;
+}
 
 .main__4-wrapper {
   background-color: #121212;
@@ -240,11 +243,11 @@ body {
 }
 
 .main__4-text-comment {
-  margin: 15px 0 60px 0;
+  margin: 17px 0 45px 0;
   color: #fff;
   font-size: 30px;
   font-weight: 400;
-  line-height: 40.98px;
+  line-height: 50.98px;
   letter-spacing: -0.03em;
   text-align: left;
 }
@@ -279,6 +282,10 @@ body {
 }
 
 /* --------------------------страница 6------------------- */
+
+.main__6-box-before {
+  w
+}
 
 .main__6-box-before::before {
   content: '';
@@ -357,7 +364,7 @@ body {
 }
 
 .footer__menu-item {
-  margin: 60px 55px;
+  margin: 60px 26px;
   color: #fff;
   transition: all 0.3s;
 }
