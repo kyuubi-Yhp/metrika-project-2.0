@@ -133,7 +133,6 @@ body {
   font-size: 43px;
   font-weight: 400;
   line-height: 61px;
-  letter-spacing: ;
   width: 1075px;
   text-align: left;
   height: 366px;
@@ -283,9 +282,6 @@ letter-spacing: -1px;
 
 /* --------------------------страница 6------------------- */
 
-.main__6-box-before {
-  w
-}
 
 .main__6-box-before::before {
   content: '';
