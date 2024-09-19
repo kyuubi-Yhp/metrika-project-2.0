@@ -253,6 +253,7 @@ body {
 /* --------------страница 5--------------- */
 
 .main__5 {
+  margin-bottom: 150px;
   position: relative;
   width: 100%;
   min-height: 717px;
@@ -275,5 +276,59 @@ body {
   line-height: 40.98px;
   letter-spacing: -0.03em;
   text-align: left;
+}
 
+/* --------------------------страница 6------------------- */
+
+.main__6-box-before::before {
+  content: '';
+  margin-bottom: 12px;
+  display: block;
+  background-image: url(../img/img-six/Vector.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+}
+
+.main__6-title {
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.main__6-link {
+  display: block;
+  transition: all 0.3s;
+}
+
+.main__6-link:hover {
+  color: grey;
+  border-bottom: 2.5px solid grey;
+  /* text-underline-offset: 8px; */
+}
+
+.link-tell {
+  margin-bottom: 30px;
+  width: 472px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+}
+
+.link-mail {
+  margin-bottom: 160px;
+  width: 412px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
 }
