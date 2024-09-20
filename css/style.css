@@ -282,6 +282,9 @@ letter-spacing: -1px;
 
 /* --------------------------страница 6------------------- */
 
+.main__6 {
+  height: 410px;
+}
 
 .main__6-box-before::before {
   content: '';
@@ -311,11 +314,12 @@ letter-spacing: -1px;
   transition: all 0.3s;
 }
 
+
 .main__6-link:hover {
   color: grey;
-  /* border-bottom: 2px solid grey; */
-  text-decoration: underline;
-  text-underline-offset: 8px;
+  border-bottom: 2px solid grey;
+  /* text-decoration: underline;
+  text-underline-offset: 8px; */
 }
 
 .link-tell {
