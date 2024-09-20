@@ -290,6 +290,8 @@ letter-spacing: -1px;
   background-image: url(../img/img-six/Vector.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
+  margin-left: -5px;
   width: 24px;
   height: 24px;
 }
@@ -311,8 +313,9 @@ letter-spacing: -1px;
 
 .main__6-link:hover {
   color: grey;
-  border-bottom: 2.5px solid grey;
-  /* text-underline-offset: 8px; */
+  /* border-bottom: 2px solid grey; */
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 .link-tell {
@@ -340,8 +343,6 @@ letter-spacing: -1px;
 
 .footer {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 .footer__wrapper {
@@ -356,7 +357,6 @@ letter-spacing: -1px;
 
 .footer__menu-list {
   display: flex;
-
 }
 
 .footer__menu-item {
