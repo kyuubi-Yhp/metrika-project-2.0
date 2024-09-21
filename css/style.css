@@ -238,6 +238,9 @@ margin-bottom: 150px;
 .main__4-contant {
   margin-bottom: 35px;
 }
+.main__4-contant:last-child {
+  margin-bottom: 0px;
+}
 
 .main__4-title {
   margin-bottom: 35px;
@@ -279,10 +282,9 @@ margin-bottom: 150px;
 
 .main__5-text {
   position: absolute;
-  left: 125px;
+  left: 10%;
   bottom: 60px;
   width: 443px;
-  height: 82px;
   color: #fff;
   font-size: 30px;
   font-weight: 400;
