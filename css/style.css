@@ -60,7 +60,7 @@ body {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 8px;
-} 
+}
 
 
 
@@ -119,7 +119,7 @@ body {
 /* -----------------2 страница----------------- */
 
 .main__2 {
-margin-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 .main__2-title {
@@ -168,7 +168,7 @@ margin-bottom: 150px;
 /* --------------страница 3----------- */
 
 .main__3 {
-  margin-bottom: 150px; 
+  margin-bottom: 150px;
 }
 
 .main__3-title {
@@ -243,6 +243,7 @@ margin-bottom: 150px;
 .main__4-item {
   margin-bottom: 35px;
 }
+
 .main__4-item:last-child {
   margin-bottom: 0;
 }
@@ -256,6 +257,7 @@ margin-bottom: 150px;
   letter-spacing: -0.03em;
   text-align: left;
 }
+
 .main__4-text-comment:last-child {
   margin-bottom: 0px;
 }
@@ -376,6 +378,7 @@ margin-bottom: 150px;
   color: #fff;
   transition: all 0.3s;
 }
+
 .footer__menu-item:hover {
   color: grey;
   text-decoration: underline;
@@ -392,4 +395,81 @@ margin-bottom: 150px;
   letter-spacing: -0.03em;
   text-align: left;
   color: grey;
+}
+
+/* -------------------------медиа адаптив 1199px--------------- */
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 15px 0 15px;
+  }
+
+  .main__1-title {
+    font-size: 50px;
+    width: 850px;
+  }
+
+  .main__1-picture-text {
+    /* max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%; */
+  }
+
+  .main__1-text {
+    font-size: 20px;
+  }
+}
+/* -----------------страница 2-------------- */
+@media (max-width:1199px) {
+  .main__2-text {
+    font-size: 35px;
+  }
+
+}
+
+/* -----------------медиа адаптив 767px------------ */
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 13px 0 13px;
+  }
+
+  .main__1-title {
+    width: 320px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 31.62px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+
+  .main__1-picture-text {
+    /* max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%; */
+  }
+
+  .main__1-text {
+    font-size: 20px;
+    width: 340px;
+  }
+}
+
+/* -----------------страница 2-------------- */
+
+@media (max-width: 767px) {
+  .main__2-text {
+    width: 400px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.05px;
+    
+  }
+
 }
