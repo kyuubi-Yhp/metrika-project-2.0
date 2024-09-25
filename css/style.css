@@ -229,18 +229,6 @@ margin-bottom: 150px;
   padding-top: 151px;
   padding-bottom: 151px;
 }
-/* 
-.main__4-wrapper {
-  background-color: #121212;
-  padding-top: 151px;
-  padding-bottom: 151px;
-} */
-.main__4-contant {
-  margin-bottom: 35px;
-}
-.main__4-contant:last-child {
-  margin-bottom: 0px;
-}
 
 .main__4-title {
   margin-bottom: 35px;
@@ -250,6 +238,13 @@ margin-bottom: 150px;
   line-height: 24.59px;
   letter-spacing: -0.03em;
   text-align: left;
+}
+
+.main__4-item {
+  margin-bottom: 35px;
+}
+.main__4-item:last-child {
+  margin-bottom: 0;
 }
 
 .main__4-text-comment {
