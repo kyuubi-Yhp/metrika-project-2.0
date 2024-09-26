@@ -82,7 +82,9 @@ body {
 .main__1-picture-text {
   position: relative;
   background-image: url(../img/first-img/Rectangle\ 1.jpg);
-  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
   height: 500px;
 }
 
@@ -404,3 +406,98 @@ body {
     width: 100%;
     padding: 0 15px 0 15px;
   }
+
+  .main__1 {
+    margin-bottom: 120px;
+  }
+
+  .main__1-title {
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 2%;
+    margin-bottom: 30px;
+    width: 870px;
+  }
+
+  .main__1-picture-text {
+    height: 400px;
+  }
+
+  .main__1-text {
+    width: 480px;
+    font-size: 19.5px;
+    line-height: 28px;
+  }
+
+  /* --------------2page------------- */
+
+  .main__2-text {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 47.81px;
+    width: 800px;
+  }
+
+  /* -------------3page------------------ */
+  .main__2 {
+    margin-bottom: 120px;
+  }
+
+  .main__3-info-text {
+    font-size: 25px;
+    line-height: 34.15px;
+
+  }
+
+}
+
+
+/* --------------flfgnbd 767px ---------------- */
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 13px 0 13px;
+  }
+
+  .main__1 {
+    margin-bottom: 80px;
+  }
+
+  .main__1-title {
+    font-size: 30px;
+    line-height: 31px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+
+  .main__1-picture-text {
+    height: 300px;
+  }
+
+  .main__1-text {
+    left: 15px;
+    bottom: 15px;
+    width: 350px;
+    font-size: 16px;
+    line-height: 21px;
+    padding-right: 60px;
+  }
+
+  /* -----------------2 page------------- */
+
+  .main__2-text {
+    font-size: 22px;
+    line-height: 30px;
+    width: 100%;
+  }
+
+  /* ----------------3page----------------- */
+
+  .main__2 {
+    margin-bottom: 80px;
+  }
+
+  .main__3-info-text {}
+
+}
