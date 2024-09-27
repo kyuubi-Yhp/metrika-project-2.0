@@ -1,0 +1,112 @@
+.main__1 {
+  margin-bottom: 150px;
+}
+
+.main__1-title {
+  font-size: 57px;
+  line-height: 63px;
+  font-weight: 400;
+  letter-spacing: 2%;
+  margin-bottom: 30px;
+  width: 1000px;
+}
+
+.main__1-picture-text {
+  position: relative;
+  background-image: url(../img/first-img/Rectangle\ 1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 500px;
+}
+
+.main__1-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  /* padding: 380px 0 0 40px; */
+  width: 490px;
+  font-size: 19.5px;
+  line-height: 28px;
+  letter-spacing: 2%;
+  color: #fff;
+}
+
+/* .main__first-list p {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 3%;
+  color: #fff;
+  z-index: 1;
+  transform: translate(40px, -120px);
+  width: 450px;
+  height: 80px;
+} */
+
+/* .main__img {
+  width: 1150px;
+  height: 500px;
+} */
+
+
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 15px 0 15px;
+  }
+
+  .main__1 {
+    margin-bottom: 120px;
+  }
+
+  .main__1-title {
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 2%;
+    margin-bottom: 30px;
+    width: 870px;
+  }
+
+  .main__1-picture-text {
+    height: 400px;
+  }
+
+  .main__1-text {
+    width: 480px;
+    font-size: 19.5px;
+    line-height: 28px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 13px 0 13px;
+  }
+
+  .main__1 {
+    margin-bottom: 80px;
+  }
+
+  .main__1-title {
+    font-size: 30px;
+    line-height: 31px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+
+  .main__1-picture-text {
+    height: 300px;
+  }
+
+  .main__1-text {
+    left: 15px;
+    bottom: 15px;
+    width: 350px;
+    font-size: 16px;
+    line-height: 21px;
+    padding-right: 60px;
+  }
+}
