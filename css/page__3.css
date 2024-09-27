@@ -60,6 +60,12 @@
     margin-bottom: 78px;
   }
 
+  .main__3-picture {
+    height: 450px; 
+    object-fit: cover;
+    object-position: center;
+  }
+
   .main__3-info-text {
     font-size: 25px;
     line-height: 34.15px;
@@ -87,7 +93,7 @@
   }
 
   .main__3-picture {
-    height: 250px;
+    /* height: 250px; */
     object-fit: cover;
     object-position: center;
   }
