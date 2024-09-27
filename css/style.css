@@ -23,4 +23,22 @@ body {
   padding: 0 15px;
 }
 
+/* ------------------------adaptive---------- */
 
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 15px 0 15px;
+  }
+
+}
+
+/* ------------------adaptive---------------------- */
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 13px 0 13px;
+  }
+
+}

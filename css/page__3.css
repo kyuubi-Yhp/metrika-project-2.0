@@ -53,8 +53,8 @@
 }
 
 /* ------------------adaptive---------------------- */
-@media (max-width: 1199px) {
 
+@media (max-width: 1199px) {
 
   .main__3-contant-item {
     margin-bottom: 78px;
@@ -80,9 +80,7 @@
 
 /* ------------------adaptive---------------------- */
 
-
 @media (max-width: 767px) {
-
 
   .main__3-contant-item {
     margin-bottom: 47px;

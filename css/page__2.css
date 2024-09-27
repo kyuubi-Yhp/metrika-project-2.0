@@ -44,9 +44,8 @@
   display: inline-block;
 }
 
-
+/* ------------------adaptive---------------------- */
 @media (max-width: 1199px) {
-
 
   .main__2 {
     margin-bottom: 120px;
@@ -60,9 +59,8 @@
   }
 }
 
-
+/* ------------------adaptive---------------------- */
 @media (max-width: 767px) {
-
 
   .main__2 {
     margin-bottom: 80px;

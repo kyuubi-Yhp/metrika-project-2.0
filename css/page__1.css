@@ -49,12 +49,9 @@
 } */
 
 
+/* ------------------adaptive---------------------- */
 
 @media (max-width: 1199px) {
-  .container {
-    width: 100%;
-    padding: 0 15px 0 15px;
-  }
 
   .main__1 {
     margin-bottom: 120px;
@@ -80,11 +77,9 @@
 
 }
 
+/* ------------------adaptive---------------------- */
+
 @media (max-width: 767px) {
-  .container {
-    width: 100%;
-    padding: 0 13px 0 13px;
-  }
 
   .main__1 {
     margin-bottom: 80px;
