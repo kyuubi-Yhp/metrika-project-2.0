@@ -1,0 +1,48 @@
+.main__reviews {}
+
+.main__rev-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+
+.main__rev-item {
+  display: block;
+  width: calc(50% - 35px);
+}
+.main__rev-item:last-child {
+  width: 861px;
+}
+
+.main__rev-title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+}
+
+.main__rev-title-two {
+  margin-bottom: 14px;
+  font-size: 45px;
+  line-height: 61.47px;
+  letter-spacing: -0.03em;
+}
+
+.main__rev-comm-one {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.05px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.main__rev-comm-two {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.05px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
