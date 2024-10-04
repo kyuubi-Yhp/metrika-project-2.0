@@ -1,4 +1,13 @@
-.main__reviews {}
+.main__reviews {
+  margin-bottom: 150px;
+}
+
+.main__rev-title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+}
 
 .main__rev-list {
   display: flex;
@@ -15,12 +24,6 @@
   width: 861px;
 }
 
-.main__rev-title {
-  margin-bottom: 30px;
-  font-size: 18px;
-  line-height: 24.59px;
-  letter-spacing: -0.03em;
-}
 
 .main__rev-title-two {
   margin-bottom: 14px;
@@ -46,3 +49,63 @@
   text-align: left;
 }
 
+@media (max-width: 1199px) {
+  
+  .main__rev-list {
+    row-gap: 80px;
+  }
+
+  .main__rev-title {
+    margin-bottom: 25px;
+  }
+.main__rev-title-two {
+  font-size: 35px;
+  line-height: 47.81px;
+}
+
+  .main__rev-item {
+    width: calc(50% - 15px);
+  }
+
+  .main__rev-comm-one {
+    font-size: 22px;
+    line-height: 30.05px;
+    
+  }
+
+  .main__rev-comm-two {
+    font-size: 22px;
+    line-height: 30.05px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .main__rev-list {
+    flex-direction: column;
+  }
+
+  .main__rev-item {
+    width: 100%;
+  }
+  .main__rev-item:last-child {
+    width: 100%;
+  }
+
+.main__rev-title-two {
+  font-size: 25px;
+  line-height: 34.15px;
+}
+.main__rev-comm-one {
+  font-size: 16px;
+  line-height: 21.86px;
+}
+.main__rev-comm-two {
+  font-size: 16px;
+  line-height: 21.86px;
+}
+
+
+
+}
