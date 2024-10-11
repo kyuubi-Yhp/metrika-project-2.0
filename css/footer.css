@@ -57,6 +57,7 @@
 @media (max-width: 767px) {
 
   .footer__menu-item {
+    margin-right: 15px;
     font-size: 12px;
     line-height: 16.39px;
   }
@@ -65,6 +66,4 @@
     font-size: 13px;
     line-height: 17.76px;
   }
-
-
 }

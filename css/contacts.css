@@ -112,7 +112,7 @@
   }
 
   .contacts-link {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 60px;
   }
 
@@ -122,5 +122,6 @@
 
   .link-mail {
     width: 307px;
+    margin-bottom: 40px;
   }
 }

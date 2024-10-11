@@ -69,15 +69,27 @@
 }
 
 .gallery__control-prev {
-  color: #fff;
-  background-color: transparent;
-  font-size: 60px;
+  margin-right: 30px;
+  width: 20px;
+  height: 34px;
+  background: none;
+  background-image: url(../img/four-img/Vector.png);
+}
+
+.gallery__control-prev:hover {
+  opacity: 0.5;
 }
 
 .gallery__control-next {
-  color: #fff;
-  background-color: transparent;
-  font-size: 60px;
+  width: 20px;
+  height: 34px;
+  background: none;
+  transform: rotate(180deg);
+  background-image: url(../img/four-img/Vector.png);
+}
+
+.gallery__control-next:hover {
+  opacity: 0.5;
 }
 
 /* ---------__--------------------------____------------ */
