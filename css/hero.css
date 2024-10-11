@@ -1,8 +1,8 @@
-.main__1 {
+.hero {
   margin-bottom: 150px;
 }
 
-.main__1-title {
+.hero-title {
   font-size: 57px;
   line-height: 63px;
   font-weight: 400;
@@ -11,7 +11,7 @@
   width: 1000px;
 }
 
-.main__1-picture-text {
+.hero-picture-text {
   position: relative;
   background-image: url(../img/first-img/Rectangle\ 1.jpg);
   background-size: cover;
@@ -20,7 +20,7 @@
   height: 500px;
 }
 
-.main__1-text {
+.hero-text {
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -53,11 +53,11 @@
 
 @media (max-width: 1199px) {
 
-  .main__1 {
+  .hero {
     margin-bottom: 120px;
   }
 
-  .main__1-title {
+  .hero-title {
     font-size: 50px;
     line-height: 60px;
     letter-spacing: 2%;
@@ -65,11 +65,11 @@
     width: 870px;
   }
 
-  .main__1-picture-text {
+  .hero-picture-text {
     height: 400px;
   }
 
-  .main__1-text {
+  .hero-text {
     width: 480px;
     font-size: 19.5px;
     line-height: 28px;
@@ -81,22 +81,22 @@
 
 @media (max-width: 767px) {
 
-  .main__1 {
+  .hero {
     margin-bottom: 80px;
   }
 
-  .main__1-title {
+  .hero-title {
     font-size: 30px;
     line-height: 31px;
     margin-bottom: 25px;
     width: 100%;
   }
 
-  .main__1-picture-text {
+  .hero-picture-text {
     height: 300px;
   }
 
-  .main__1-text {
+  .hero-text {
     left: 15px;
     bottom: 15px;
     width: 350px;

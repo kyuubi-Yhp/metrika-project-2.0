@@ -1,8 +1,8 @@
-.main__6 {
+.contacts {
   height: 390px;
 }
 
-.main__6-title {
+.contacts-title {
   margin-bottom: 32px;
   text-transform: uppercase;
   font-size: 18px;
@@ -12,7 +12,7 @@
   text-align: left;
 }
 
-.main__6-flex {
+.contacts-flex {
   display: flex;
   flex-direction: row;
   gap: 110px;
@@ -20,7 +20,7 @@
 
 
 
-.main__6-link {
+.contacts-link {
   font-size: 60px;
   font-weight: 400;
   line-height: 60px;
@@ -31,7 +31,7 @@
 }
 
 
-.main__6-link:hover {
+.contacts-link:hover {
   color: grey;
   border-bottom: 2px solid grey;
   /* text-decoration: underline;
@@ -77,16 +77,16 @@
 
 @media (max-width: 1199px) {
 
-  .main__6-title {
+  .contacts-title {
     font-size: 18px;
     line-height: 24.59px;
   }
 
-  .main__6-flex {
+  .contacts-flex {
     gap: 115px;
   }
 
-  .main__6-link {
+  .contacts-link {
     font-size: 45px;
     line-height: 60px;
   }
@@ -101,17 +101,17 @@
 }
 
 @media (max-width: 767px) {
-  .main__6-title {
+  .contacts-title {
     font-size: 18px;
     line-height: 24.59px;
   }
 
-  .main__6-flex {
+  .contacts-flex {
     gap: 20px;
     flex-direction: column;
   }
 
-  .main__6-link {
+  .contacts-link {
     font-size: 45px;
     line-height: 60px;
   }

@@ -1,8 +1,8 @@
-.main__2 {
+.about {
   margin-bottom: 150px;
 }
 
-.main__2-title {
+.about-title {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -10,7 +10,7 @@
   margin-bottom: 30px;
 }
 
-.main__2-text {
+.about-text {
   margin-bottom: 30px;
   font-size: 43px;
   font-weight: 400;
@@ -30,7 +30,7 @@
   margin-top: 30px;
 } */
 
-.main__2-link {
+.about-link {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -47,11 +47,11 @@
 /* ------------------adaptive---------------------- */
 @media (max-width: 1199px) {
 
-  .main__2 {
+  .about {
     margin-bottom: 120px;
   }
 
-  .main__2-text {
+  .about-text {
     font-size: 35px;
     font-weight: 400;
     line-height: 47.81px;
@@ -62,17 +62,17 @@
 /* ------------------adaptive---------------------- */
 @media (max-width: 767px) {
 
-  .main__2 {
+  .about {
     margin-bottom: 80px;
   }
 
-  .main__2-text {
+  .about-text {
     font-size: 22px;
     line-height: 30px;
     width: 100%;
   }
 
-  .main__2-link {
+  .about-link {
     width: 195px;
     height: 50px;
     font-size: 16px;
