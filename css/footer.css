@@ -18,6 +18,12 @@
 
 .footer__menu-item {
   margin: 60px 26px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
   color: #fff;
   transition: all 0.3s;
 }
@@ -38,4 +44,27 @@
   letter-spacing: -0.03em;
   text-align: left;
   color: grey;
+}
+
+@media (max-width: 1199px) {
+
+  .footer__menu-item {
+    font-size: 18px;
+    line-height: 24.59px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .footer__menu-item {
+    font-size: 12px;
+    line-height: 16.39px;
+  }
+
+  .footer__text {
+    font-size: 13px;
+    line-height: 17.76px;
+  }
+
+
 }
