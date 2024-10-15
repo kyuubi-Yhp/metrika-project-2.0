@@ -75,6 +75,7 @@
   letter-spacing: -0.03em;
   text-align: left;
 }
+
 .popup__input::placeholder {
   opacity: .5;
 }
@@ -95,6 +96,7 @@
 }
 
 @media (max-width: 767px) {
+  
   .popup__title {
     font-size: 25px;
     line-height: 34.15px;
@@ -106,7 +108,7 @@
   }
 
   .popup__input {
-font-size: 18px;
-line-height: 24.59px;
+    font-size: 18px;
+    line-height: 24.59px;
   }
 }
