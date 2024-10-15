@@ -64,7 +64,12 @@
   letter-spacing: -0.03em;
 }
 
+.popup__form {
+  width: 100%;
+}
+
 .popup__input {
+  width: 100%;
   display: block;
   margin-bottom: 50px;
   border-bottom: 1px solid #333;
@@ -96,7 +101,7 @@
 }
 
 @media (max-width: 767px) {
-  
+
   .popup__title {
     font-size: 25px;
     line-height: 34.15px;
