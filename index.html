@@ -47,7 +47,7 @@
 
 
     <div class="burger js-burger">
-      <div class="burger__contant js-burger__content">
+      <div class="burger__contant">
 
         <div class="burger__logo">
           <a href=""><img src="img/logo/metrika__burger-logo.png" alt="logo"></a>
@@ -61,10 +61,13 @@
             <li class="burger__menu-item header__underline"><a href="#contacts">КОНТАКТЫ</a></li>
           </ul>
         </nav>
-
-        <h5 class="contacts-burger">для связи:</h5>
-        <a class="contacts__link-burger" href="tel:+79358954535">+7 935 895-45-35</a>
-        <a class="contacts__link-burger" href="mailto:hello@mail.com">hello@mail.com</a>
+        <div class="burger__contacts js-burger__content">
+          <h5 class="contacts-burger">для связи:</h5>
+          <ul>
+            <li><a class="contacts__link-burger" href="tel:+79358954535">+7 935 895-45-35</a></li>
+            <li><a class="contacts__link-burger" href="mailto:hello@mail.com">hello@mail.com</a></li>
+          </ul>
+        </div>
 
       </div>
 
@@ -192,11 +195,11 @@
             </div>
             <h2 class="popup__title">Заказать услугу</h2>
             <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
-            <div class="popup__form">
+            <form class="popup__form">
               <input class="popup__input" placeholder="Имя" name="name" type="text">
               <input class="popup__input" placeholder="Электронная почта" name="email" type="email">
               <input class="popup__input" placeholder="Номер телефона" name="tel" type="tel">
-            </div>
+            </form>
             <button class="popup__btn">Отправить</button>
           </div>
         </div>
