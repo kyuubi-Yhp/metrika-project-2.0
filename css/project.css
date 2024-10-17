@@ -36,6 +36,7 @@
 }
 
 .project-btn {
+  cursor: pointer;
   display: block;
   display: flex;
   align-items: center;
