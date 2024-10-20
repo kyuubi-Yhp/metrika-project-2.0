@@ -30,7 +30,7 @@
       <div class="header__contant-nav">
 
         <div class="logo">
-          <a href=""><img src="img/logo/Метрика.png" alt="logo"></a>
+          <a href="#"><img src="img/logo/Метрика.png" alt="logo"></a>
         </div>
 
         <nav class="header__nav-list">
@@ -117,19 +117,17 @@
             </a>
           </li>
 
-          <a href="#">
-            <li class="project-contant-item">
-              <picture>
-                <source media="(max-width: 500px)" srcset="img/two-img/mobile/Rectangle7-mobile(quality).png">
-                <source media="(max-width: 1199px)" srcset="img/two-img/tablet/Rectangle7-tablet.png">
-                <img class="project-picture" src="img/two-img/Rectangle7.png" alt="interior">
-              </picture>
-              <h3 class="project-info-text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
-              <a href="#">
-                <p class="project-link">Подробнее →</p>
-              </a>
-            </li>
-          </a>
+          <li class="project-contant-item">
+            <picture>
+              <source media="(max-width: 500px)" srcset="img/two-img/mobile/Rectangle7-mobile(quality).png">
+              <source media="(max-width: 1199px)" srcset="img/two-img/tablet/Rectangle7-tablet.png">
+              <img class="project-picture" src="img/two-img/Rectangle7.png" alt="interior">
+            </picture>
+            <h3 class="project-info-text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+            <a href="#">
+              <p class="project-link">Подробнее →</p>
+            </a>
+          </li>
 
           <li class="project-contant-item">
             <picture>
@@ -142,45 +140,54 @@
               <p class="project-link">Подробнее →</p>
             </a>
           </li>
+
+          <a href="#" class="project-btn">Смотреть все проекты</a>
         </ul>
-        <a class="project-btn">Смотреть все проекты</a>
       </div>
 
     </section>
 
     <section id="services" class="services">
       <div class="container">
-        <h4 class="services-title">УСЛУГИ</h4>
+        <h2 class="services-title">УСЛУГИ</h2>
 
         <ul class="services-contant">
           <li class="services-item">
             <div class="services-item-box">
-              <img src="img/img-three/Rectangle22.png" alt="picture__services">
-              <p class="services-text-inset">от 2500₽/м²</p>
+              <div class="services__img-box">
+                <img src="img/img-three/Rectangle22.png" alt="picture__services">
+                <p class="services-text-inset">от 2500₽/м²</p>
+              </div>
               <p class="services-text-comment">Планировочное решение</p>
             </div>
           </li>
 
           <li class="services-item">
             <div class="services-item-box">
-              <img src="img/img-three/Rectangle33.png" alt="picture__services">
-              <p class="services-text-inset">от 3000₽/м²</p>
+              <div class="services__img-box">
+                <img src="img/img-three/Rectangle33.png" alt="picture__services">
+                <p class="services-text-inset">от 3000₽/м²</p>
+              </div>
               <p class="services-text-comment">Дизайн-проект</p>
             </div>
           </li>
 
           <li class="services-item">
             <div class="services-item-box">
-              <img src="img/img-three/Rectangle44.png" alt="picture__services">
-              <p class="services-text-inset">от 30 000₽/мес</p>
+              <div class="services__img-box">
+                <img src="img/img-three/Rectangle44.png" alt="picture__services">
+                <p class="services-text-inset">от 30 000₽/мес</p>
+              </div>
               <p class="services-text-comment">Авторский надзор</p>
             </div>
           </li>
 
           <li class="services-item">
             <div class="services-item-box">
-              <img src="img/img-three/Rectangle55.png" alt="picture__services">
-              <p class="services-text-inset">5% от стоимости</p>
+              <div class="services__img-box">
+                <img src="img/img-three/Rectangle55.png" alt="picture__services">
+                <p class="services-text-inset">5% от стоимости</p>
+              </div>
               <p class="services-text-comment">Комплектация</p>
             </div>
           </li>
@@ -200,7 +207,7 @@
               <input class="popup__input" placeholder="Электронная почта" name="email" type="email">
               <input class="popup__input" placeholder="Номер телефона" name="tel" type="tel">
             </form>
-            <button class="popup__btn">Отправить</button>
+            <button class="popup__btn" type="submit">Отправить</button>
           </div>
         </div>
       </div>
@@ -262,7 +269,7 @@
         <div class="gallery__slides">
           <div class="gallery__slide gallery__slide_active">
             <div class="slide__box">
-              <img class="slide__img" src="img/four-img/Rectangle 10.png" alt="rfhnbyrf">
+              <img class="slide__img" src="img/four-img/Rectangle 10.png" alt="slideImg">
               <div class="container">
                 <h3 class="gallery__text">Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
               </div>
@@ -270,7 +277,7 @@
           </div>
           <div class="gallery__slide">
             <div class="slide__box">
-              <img class="slide__img" src="img/four-img/Rectangle3.png" alt="cnek">
+              <img class="slide__img" src="img/four-img/Rectangle3.png" alt="slideImg">
               <div class="container">
                 <h3 class="gallery__text">Проект гостиной в ЖК Маяк</h3>
               </div>
@@ -278,7 +285,7 @@
           </div>
           <div class="gallery__slide">
             <div class="slide__box">
-              <img class="slide__img" src="img/four-img/Rectangle2.png" alt="vttkm">
+              <img class="slide__img" src="img/four-img/Rectangle2.png" alt="slideImg">
               <div class="container">
                 <h3 class="gallery__text">Визуализация кухни-гостиной в частном доме</h3>
               </div>
@@ -286,7 +293,7 @@
           </div>
           <div class="gallery__slide">
             <div class="slide__box">
-              <img class="slide__img" src="img/four-img/Rectangle1.png" alt="qwedscx">
+              <img class="slide__img" src="img/four-img/Rectangle1.png" alt="slideImg">
               <div class="container">
                 <h3 class="gallery__text">Проект кухни в скандинавском стиле для ЖК Северный Ветер</h3>
               </div>
@@ -307,7 +314,7 @@
     <section id="contacts" class="contacts">
 
       <div class="container">
-        <h5 class="contacts-title">Контакты</h5>
+        <h2 class="contacts-title">Контакты</h2>
 
         <ul class="contacts-flex">
           <li class="contacts-flex-item">
@@ -323,16 +330,18 @@
     </section>
 
     <footer class="footer">
-      <div class="footer__wrapper">
-        <nav>
-          <ul class="footer__menu-list">
-            <li class="footer__menu-item"><a href="#about-us">О НАС</a></li>
-            <li class="footer__menu-item"><a href="#project">ПРОЕКТЫ</a></li>
-            <li class="footer__menu-item"><a href="#services">УСЛУГИ</a></li>
-            <li class="footer__menu-item"><a href="#contacts">КОНТАКТЫ</a></li>
-          </ul>
-        </nav>
-        <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+      <div class="container">
+        <div class="footer__wrapper">
+          <nav>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item"><a href="#about-us">О НАС</a></li>
+              <li class="footer__menu-item"><a href="#project">ПРОЕКТЫ</a></li>
+              <li class="footer__menu-item"><a href="#services">УСЛУГИ</a></li>
+              <li class="footer__menu-item"><a href="#contacts">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+          <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+        </div>
       </div>
     </footer>
   </main>
